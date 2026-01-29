@@ -41,15 +41,12 @@ The focus of this assignment is on **approach, clarity, and correctness**, rathe
 ---
 
 ## Model Architecture
-Input (50×50×1)
-↓
-Conv2D (16 filters, 3×3, ReLU)
-↓
-Conv2D (32 filters, 3×3, ReLU)
-↓
-Conv2D (1 filter, 1×1, Linear)
-↓
-Output Heatmap (50×50×1)
+
+- **Input:** 50×50×1 grayscale image  
+- **Conv2D:** 16 filters, 3×3 kernel, ReLU  
+- **Conv2D:** 32 filters, 3×3 kernel, ReLU  
+- **Conv2D:** 1 filter, 1×1 kernel, Linear  
+- **Output:** 50×50×1 heatmap  
 
 This architecture is intentionally minimal and sufficient for the task.
 
